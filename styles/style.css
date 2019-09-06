@@ -1,9 +1,14 @@
-h1 {
-    color: green;
+#orange-text {
+color: orange;
+}
+body {
+background-color: black;
+font-family: monospace;
+color: green;
+}
+.pink-text {
+color: pink;
 }
 .blue-text {
-    color: blue;
-}
-.red-text {
-    color: red;
+color: blue;
 }
