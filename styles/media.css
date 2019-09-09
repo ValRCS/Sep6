@@ -1,10 +1,24 @@
 :root {
     background-color: aqua;
+    font-size: 12px;
+}
+h1 {
+    color: white;
 }
 
-@media (max-width: 992px) {
+
+@media (min-width: 576px) {
+    :root {
+        background-color: darkblue;
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 992px) {
     :root {
         background-color: silver;
+        font-size: 24px;
     }
     p {
         background-color: orange;
@@ -12,10 +26,3 @@
 
 }
 
-@media (max-width: 576px) {
-    :root {
-        background-color: darkblue;
-    }
-    
-
-}
